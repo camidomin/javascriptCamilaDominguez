@@ -1,0 +1,30 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1087.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express.js": "^1.0.0",
+    "firebase": "^9.8.0",
+    "nodemon": "^2.0.16",
+    "selenium-webdriver": "^4.1.2",
+    "stripe": "^8.222.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camidomin/finalJavascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camidomin/finalJavascript/issues"
+  },
+  "homepage": "https://github.com/camidomin/finalJavascript#readme",
+  "description": ""
+}
