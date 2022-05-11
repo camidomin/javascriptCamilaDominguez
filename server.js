@@ -4,15 +4,17 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, doc, collection, setDoc, getDoc, updateDoc, getDocs, query, where, deleteDoc, limit } from "firebase/firestore";
 import stripe from 'stripe';
 
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
 //firebase credentials
 const firebaseConfig = {
-  apiKey: "AIzaSyB6e9hjsf2SsEVq5-C2F2nJb7kR0iQTYkM",
-  authDomain: "ecom-website-cami.firebaseapp.com",
-  projectId: "ecom-website-cami",
-  storageBucket: "ecom-website-cami.appspot.com",
-  messagingSenderId: "744093416218",
-  appId: "1:744093416218:web:1312b48e8cc57888ba4aa3"
-
+  apiKey: "AIzaSyBqTapYQLp9nE9KGwz2qS5b-PejEKnWHtI",
+  authDomain: "javascript-1d2e3.firebaseapp.com",
+  projectId: "javascript-1d2e3",
+  storageBucket: "javascript-1d2e3.appspot.com",
+  messagingSenderId: "996320947139",
+  appId: "1:996320947139:web:c257a929917f835de12b76"
 };
 
 // Initialize Firebase
@@ -31,8 +33,8 @@ import aws from "aws-sdk";
 import "dotenv/config";
 
 // aws setup
-const region = "ap-south-1";
-const bucketName = "ecom-website-4";
+const region = "sa-east-1";
+const bucketName = "javascriptcamiladominguez";
 const accessKeyId = process.env.AWS_ACCESS_KEY;
 const secretAccessKey = process.env.AWS_SECRET_KEY;
 

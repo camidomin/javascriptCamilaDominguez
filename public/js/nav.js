@@ -16,30 +16,29 @@ const createNavbar = () => {
     navbar.innerHTML += `
     
         <ul class="links-container">
-        <li class="link-item"><a href="../public/index.html" class="link active">home</a></li>
-            <li class="link-item"><a href="../public/product.html" class="link">product</a></li>
-            <li class="link-item"><a href="../public/seller.html" class="link">seller</a></li>
-            <li class="link-item"><a href="../public/dashboard.html" class="link">dashboard</a></li>
+        <li class="link-item"><a href="./index.html" class="link active">home</a></li>
+            <li class="link-item"><a href="./product.html" class="link">product</a></li>
+            <li class="link-item"><a href="./seller.html" class="link">seller</a></li>
+            <li class="link-item"><a href="./dashboard.html" class="link">dashboard</a></li>
         </ul>
         <div class="user-interactions">
         <div class="search-box">
             <input type="text" class="search" placeholder="search item">
-            <button class="search-btn"><img src="../public/img/search.png" alt=""></button>
+            <button class="search-btn"><img src="../img/search.png" alt=""></button>
         </div>
             <div class="cart" onclick="location.href='/cart'">
-            <img src="../public/img/cart.png" class="cart-icon" alt="">
+            <img src="../img/cart.png" class="cart-icon" alt="">
             <span class="cart-item-count">00</span>
             
             </div>
             <div class="user">
-                <img src="../public/img/user.png" class="user-icon" alt="">
+                <img src="../img/user.png" class="user-icon" alt="">
                 <div class="user-icon-popup">
                     <p>login to your account</p>
                     <a>login</a>
                 </div>
             </div>
         </div>
-
     `
 }
 
