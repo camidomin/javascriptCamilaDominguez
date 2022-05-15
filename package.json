@@ -27,5 +27,6 @@
     "url": "https://github.com/camidomin/finalJavascript/issues"
   },
   "homepage": "https://github.com/camidomin/finalJavascript#readme",
-  "description": ""
+  "description": "npm init npm start",
+  "devDependencies": {}
 }
